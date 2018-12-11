@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* HTML and Body */
+/* A basic CSS sheets, that applie certian styles that I want, this is so I don,t have to retype everything. */
+html {
+    width: 100%;
+    height: 100%;
+
+    background-color: aquamarine;
+}
+
+body {
+    width: 80%;
+    min-height: 100%;
+    height: fit-content;
+
+    background-color: burlywood;
+
+    margin: 0 auto;
+    box-shadow: 0px 0px 25px;
+
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    -webkit-flex-flow: column wrap;
+}
+
+/* Basic Styles */
+a,
+a:visited,
+a:hover,
+a:active,
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+/* Flex */
+.flexBRow {
+    -webkit-flex-flow: row wrap;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    display: flex;
+}
+
+.flexBColumn {
+    -webkit-flex-flow: column wrap;
+    display: -webkit-flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.flexItem11A {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}

@@ -1,0 +1,64 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 6
+   Case Problem 4
+
+   Schedule Table Style Sheet
+   Author: Diego Sandoval
+   Date:   12/11/18s
+
+   Filename:         hcc_schedule.css
+   Supporting Files: 
+
+*/
+/* Table Styles */
+table {
+    background-color: white;
+    border: 5px solid black;
+
+    width: 80%;
+    margin: 50px auto;
+}
+
+td {
+    border: 3px solid black;
+    line-height: 1.4em;
+    padding: 8px;
+
+    color: black;
+    font-size: 0.9em;
+    vertical-align: top;
+}
+
+th {
+    border: 3px solid black;
+    line-height: 1.4em;
+    padding: 8px;
+
+    background-color: gray;
+    color: black;
+    font-weight: normal;
+}
+
+/* Column Styles */
+col#firstcol {
+    width: 25%;
+}
+
+col#dataCol {
+    width: 10.71%;
+}
+
+/* Table Header Styles */
+thead {
+    height: 60px;
+}
+
+thead th#theadThFirst {
+    font-size: 2em;
+}
+
+thead th.theadTopRow {
+    background: transparent;
+    color: black;
+}
