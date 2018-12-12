@@ -31,30 +31,31 @@
 <body>
     <header>
         <nav id="topNavBar">
-            <button>Home Page</button>
-            <button>Reservations</button>
-            <button>Facilities</button>
-            <button>Virtual Tour</button>
-            <button>Staff</button>
-            <button>Calendar of Events</button>
-            <button>Contact Info</button>
-            <button>Directions</button>
-            <button>FAQ</button>
+            <button class="topNavButton"><a href="#">Home Page</a></button>
+            <button class="topNavButton"><a href="#">Reservations</a></button>
+            <button class="topNavButton"><a href="#">Facilities</a></button>
+            <button class="topNavButton"><a href="#">Virtual Tour</a></button>
+            <button class="topNavButton"><a href="#">Staff</a></button>
+            <button class="topNavButton"><a href="#">Calendar of Events</a></button>
+            <button class="topNavButton"><a href="#">Contact Info</a></button>
+            <button class="topNavButton"><a href="#">Directions</a></button>
+            <button class="topNavButton"><a href="#">FAQ</a></button>
         </nav>
     </header>
     <section>
         <table>
+            <caption>Hamilton Conference Center Room Schedule</caption>
             <colgroup>
                 <col id="firstcol">
                 <col id="dataCol" span="7">
             </colgroup>
             <thead>
                 <tr>
-                    <th rowspan="2" id="theadThFirst">
-                        Tuesday, <br />
+                    <th rowspan="2" id="theadThFirst" class="theadThFirst">
+                        Tuesday <br />
                         April 10
                     </th>
-                    <th colspan="7" id="theadThFirst">
+                    <th colspan="7" id="theadThSecond" class="theadThFirst">
                         Reservations for Conference Rooms
                     </th>
                 </tr>
@@ -71,83 +72,83 @@
             <tbody>
                 <tr>
                     <th>8:00</th>
-                    <td rowspan="4">Marriage Encounter</td>
-                    <td rowspan="2">Breakfast Club of Ohio</td>
-                    <td rowspan="8">Computer Expo set up</td>
-                    <td rowspan="14"></td>
-                    <td rowspan="2"></td>
-                    <td rowspan="2"></td>
-                    <td rowspan="2"></td>
+                    <td rowspan="4" class="taken">Marriage Encounter</td>
+                    <td rowspan="2" class="taken">Breakfast Club of Ohio</td>
+                    <td rowspan="8" class="taken">Computer Expo set up</td>
+                    <td rowspan="14" class="open"></td>
+                    <td rowspan="2" class="open"></td>
+                    <td rowspan="2" class="open"></td>
+                    <td rowspan="2" class="open"></td>
                 </tr>
                 <tr>
                     <th>8:30</th>
                 </tr>
                 <tr>
                     <th>9:00</th>
-                    <td rowspan="4"></td>
-                    <td rowspan="3">The Tompkins Group</td>
-                    <td rowspan="3">Retirement Planning</td>
-                    <td rowspan="4">Drivers' Ed</td>
+                    <td rowspan="4" class="open"></td>
+                    <td rowspan="3" class="taken">The Tompkins Group</td>
+                    <td rowspan="3" class="taken">Retirement Planning</td>
+                    <td rowspan="4" class="taken">Drivers' Ed</td>
                 </tr>
                 <tr>
                     <th>9:30</th>
                 </tr>
                 <tr>
                     <th>10:00</th>
-                    <td rowspan="4"></td>
+                    <td rowspan="4" class="open"></td>
                 </tr>
                 <tr>
                     <th>10:30</th>
-                    <td rowspan="3">Pearson Planning</td>
-                    <td rowspan="3">The Senior Group</td>
+                    <td rowspan="3" class="taken">Pearson Planning</td>
+                    <td rowspan="3" class="taken">The Senior Group</td>
                 </tr>
                 <tr>
                     <th>11:00</th>
-                    <td rowspan="4">Ohio Conference of Librarians</td>
-                    <td rowspan="5">Movie Club</td>
+                    <td rowspan="4" class="taken">Ohio Conference of Librarians</td>
+                    <td rowspan="5" class="taken">Movie Club</td>
                 </tr>
                 <tr>
                     <th>11:30</th>
                 </tr>
                 <tr>
                     <th>12:00</th>
-                    <td rowspan="2">Marriage Encounter Luncheon</td>
-                    <td rowspan="2"></td>
-                    <td rowspan="4"></td>
-                    <td rowspan="2">Senior Luncheon</td>
+                    <td rowspan="2" class="taken">Marriage Encounter Luncheon</td>
+                    <td rowspan="2" class="open"></td>
+                    <td rowspan="4" class="open"></td>
+                    <td rowspan="2" class="taken">Senior Luncheon</td>
                 </tr>
                 <tr>
                     <th>12:30</th>
                 </tr>
                 <tr>
                     <th>1:00</th>
-                    <td rowspan="4"></td>
-                    <td rowspan="2"></td>
-                    <td rowspan="8">Computer Expo opening session</td>
-                    <td rowspan="5">Senior Classes</td>
+                    <td rowspan="4" class="open"></td>
+                    <td rowspan="2" class="open"></td>
+                    <td rowspan="8" class="taken">Computer Expo opening session</td>
+                    <td rowspan="5" class="taken">Senior Classes</td>
                 </tr>
                 <tr>
                     <th>1:30</th>
-                    <td rowspan="4"></td>
+                    <td rowspan="4" class="open"></td>
                 </tr>
                 <tr>
                     <th>2:00</th>
-                    <td rowspan="6">Ohio Book Resale Setup</td>
-                    <td rowspan="3">Mothers of Multiples</td>
+                    <td rowspan="6" class="taken">Ohio Book Resale Setup</td>
+                    <td rowspan="3" class="taken">Mothers of Multiples</td>
                 </tr>
                 <tr>
                     <th>2:30</th>
                 </tr>
                 <tr>
                     <th>3:00</th>
-                    <td rowspan="4">Marriage Encounter Talks</td>
-                    <td rowspan="4">Youth Theatre</td>
+                    <td rowspan="4" class="taken">Marriage Encounter Talks</td>
+                    <td rowspan="4" class="taken">Youth Theatre</td>
                 </tr>
                 <tr>
                     <th>3:30</th>
-                    <td rowspan="3">Teen Connection</td>
-                    <td rowspan="3">Tutoring</td>
-                    <td rowspan="3">Tutoring</td>
+                    <td rowspan="3" class="taken">Teen Connection</td>
+                    <td rowspan="3" class="taken">Tutoring</td>
+                    <td rowspan="3" class="taken">Tutoring</td>
                 </tr>
                 <tr>
                     <th>4:00</th>
@@ -159,43 +160,71 @@
             <tfoot>
                 <tr>
                     <th>5:00</th>
-                    <td colspan="7">Closed</td>
+                    <td colspan="7">Closing</td>
+                </tr>
+                <tr id="tfoot2">
+                    <th>Key</th>
+                    <td id="f1">Show if the time slot is available or not</td>
+                    <td class="open" colspan="3">Open</td>
+                    <td class="taken" colspan="3">Taken</td>
+
                 </tr>
             </tfoot>
         </table>
     </section>
     <article>
-        <p>
+        <p id="articleContent">
             To reserve a room, please contact Yancy Inwe at extension 388 or by e-mail at yancyinwe@hconfcenter.org.
             <br />
             Reservations should be made at least 48 hours in advance. Cancellations require 24 hour notice. Room
             deposits will not be returned for cancellations within 24 hours of the scheduled event.
         </p>
         <h2>
-            Here are the room descriptions:
+            Room Descriptions
         </h2>
         <dl>
-            <dt>Sunrise Room</dt>
-            <dd>Maximum Capacity: 80</dd>
-            <dt>Moutain View Room</dt>
-            <dd>Maximum Capacity: 150</dd>
-            <dt>Arbor Hall</dt>
-            <dd>Maximum Capacity: 190</dd>
-            <dt>Mitchell Theatre</dt>
-            <dd>Maximum Capacity: 120</dd>
-            <dt>Gold Room</dt>
-            <dd>Maximum Capacity: 40</dd>
-            <dt>Blue Room</dt>
-            <dd>Maximum Capacity: 30</dd>
-            <dt>Green Room</dt>
-            <dd>Maximum Capacity: 55</dd>
+            <div class="dlListBoxes">
+                <dt>Sunrise Room</dt>
+                <dd>Maximum Capacity: 80</dd>
+                <hr>
+            </div>
+            <div class="dlListBoxes">
+                <dt>Moutain View Room</dt>
+                <dd>Maximum Capacity: 150</dd>
+                <hr>
+            </div>
+            <div class="dlListBoxes">
+                <dt>Arbor Hall</dt>
+                <dd>Maximum Capacity: 190</dd>
+                <hr>
+            </div>
+            <div class="dlListBoxes">
+                <dt>Mitchell Theatre</dt>
+                <dd>Maximum Capacity: 120</dd>
+                <hr>
+            </div>
+            <div class="dlListBoxes">
+                <dt>Gold Room</dt>
+                <dd>Maximum Capacity: 40</dd>
+                <hr>
+            </div>
+            <div class="dlListBoxes">
+                <dt>Blue Room</dt>
+                <dd>Maximum Capacity: 30</dd>
+                <hr>
+            </div>
+            <div class="dlListBoxes">
+                <dt>Green Room</dt>
+                <dd>Maximum Capacity: 55</dd>
+                <hr>
+            </div>
         </dl>
     </article>
     <footer>
-        Hamilton Conference Center
-        8711 West Park Lane
-        Hamilton, OH 45011
-        (513) 555 - 7911
+        <a href="index.html">Hamilton Conference Center <br /></a>
+        <a href="https://www.google.com/maps/search/8711+West+Park+Lane+Hamilton,+OH+45011/@39.4296413,-84.5139208,17z">
+            8711 West Park Lane &#167; Hamilton, OH 45011 <br /></a>
+        <a href="tel:+15135557911">(513) 555 - 7911</a>
     </footer>
 </body>
 

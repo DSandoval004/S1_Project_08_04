@@ -17,7 +17,8 @@ table {
     border: 5px solid black;
 
     width: 80%;
-    margin: 50px auto;
+    margin: 20px auto;
+    box-shadow: 0 0 25px;
 }
 
 td {
@@ -26,27 +27,45 @@ td {
     padding: 8px;
 
     color: black;
-    font-size: 0.9em;
+    font-size: 1em;
     vertical-align: top;
 }
 
 th {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+
     border: 3px solid black;
     line-height: 1.4em;
     padding: 8px;
 
-    background-color: gray;
-    color: black;
+    background-color: sandybrown;
     font-weight: normal;
+    color: black;
+}
+
+/* Caption Styles */
+caption {
+    caption-side: bottom;
+    text-align: right;
 }
 
 /* Column Styles */
 col#firstcol {
-    width: 25%;
+    width: 16%;
 }
 
 col#dataCol {
-    width: 10.71%;
+    width: 12%;
+}
+
+/* Cell styles */
+.open {
+    background-color: aliceblue;
+}
+
+.taken {
+    background-color: coral;
 }
 
 /* Table Header Styles */
@@ -56,9 +75,32 @@ thead {
 
 thead th#theadThFirst {
     font-size: 2em;
+    background-color: aliceblue;
+}
+
+thead th.theadThFirst {
+    font-size: 2em;
 }
 
 thead th.theadTopRow {
     background: transparent;
     color: black;
+}
+
+/* Table Footer Style */
+tfoot td {
+    background-color: gray;
+    text-align: center;
+    font-size: 1.75em;
+    color: beige;
+}
+
+tfoot tr#tfoot2 td {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    color: black;
+}
+
+tfoot tr#tfoot2 td#f1 {
+    font-size: .9em;
 }

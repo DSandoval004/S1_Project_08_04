@@ -6,24 +6,36 @@ html {
     width: 100%;
     height: 100%;
 
+    /* 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+          !!!!! DIFFERENT PER SITE !!!!! 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+    */
     background-color: aquamarine;
 }
 
 body {
-    width: 80%;
-    min-height: 100%;
-    height: fit-content;
+    -webkit-flex-flow: column wrap;
+    display: -webkit-flex;
 
-    background-color: burlywood;
+    height: fit-content;
+    min-height: 100%;
+    width: 80%;
+
 
     margin: 0 auto;
     box-shadow: 0px 0px 25px;
 
-    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
-    -webkit-flex-flow: column wrap;
+
+    /* 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+          !!!!! DIFFERENT PER SITE !!!!! 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+    */
+    background-color: burlywood;
 }
 
 /* Basic Styles */
@@ -40,12 +52,68 @@ a:link {
     display: none;
 }
 
+/* Headings */
 h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
     font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 /* Flex */
-.flexBRow {
+.flexBoxRow {
     -webkit-flex-flow: row wrap;
     display: -webkit-flex;
     flex-wrap: wrap;
@@ -53,7 +121,7 @@ h1 {
     display: flex;
 }
 
-.flexBColumn {
+.flexBoxColumn {
     -webkit-flex-flow: column wrap;
     display: -webkit-flex;
     flex-flow: column;
@@ -64,4 +132,95 @@ h1 {
 .flexItem11A {
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
+}
+
+/* Header */
+header {
+    -webkit-flex-flow: row wrap;
+    -webkit-flex: 1 1 auto;
+    display: -webkit-flex;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: row;
+    display: flex;
+
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+/* Top Nav Bar */
+#topNavBar {
+    -webkit-flex-flow: row wrap;
+    display: -webkit-flex;
+
+    justify-content: space-around;
+    text-align: center;
+    flex: 1 1 auto;
+    flex-flow: row;
+    display: flex;
+    margin: 1px;
+    /* 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+          !!!!! DIFFERENT PER SITE !!!!! 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+    */
+    box-shadow: 0 0 25px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+.topNavButton {
+    -webkit-flex: 1 1 auto;
+
+    display: inline-block;
+    position: relative;
+    flex: 1 1 auto;
+
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 16px;
+    margin: 1px;
+    border: none;
+}
+
+.topNavDropContent {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    position: absolute;
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.topNavDropContent a {
+    text-decoration: none;
+    padding: 12px 16px;
+    color: black;
+    display: block;
+}
+
+.topNavButton:hover .topNavDropContent {
+    display: block;
+}
+
+.topNavDropContent a:hover {
+    /* 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+          !!!!! DIFFERENT PER SITE !!!!! 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+    */
+    background-color: coral;
+    color: white;
+}
+
+.topNavButton:hover {
+    /* 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+          !!!!! DIFFERENT PER SITE !!!!! 
+    ----- ===== ||||| ++++++ ||||| ===== -----
+    */
+    background-color: coral;
+    color: white;
 }
