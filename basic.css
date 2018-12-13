@@ -8,7 +8,9 @@ html {
 
     /* 
     ----- ===== ||||| ++++++ ||||| ===== -----
-          !!!!! DIFFERENT PER SITE !!!!! 
+          !!!!!      VARIABLE      !!!!!
+                   MUST LOOK AT
+          !!!!!  CHANGE IF NEEDED  !!!!! 
     ----- ===== ||||| ++++++ ||||| ===== -----
     */
     background-color: aquamarine;
@@ -32,7 +34,9 @@ body {
 
     /* 
     ----- ===== ||||| ++++++ ||||| ===== -----
-          !!!!! DIFFERENT PER SITE !!!!! 
+          !!!!!      VARIABLE      !!!!!
+                   MUST LOOK AT
+          !!!!!  CHANGE IF NEEDED  !!!!! 
     ----- ===== ||||| ++++++ ||||| ===== -----
     */
     background-color: burlywood;
@@ -162,7 +166,9 @@ header {
     margin: 1px;
     /* 
     ----- ===== ||||| ++++++ ||||| ===== -----
-          !!!!! DIFFERENT PER SITE !!!!! 
+          !!!!!      VARIABLE      !!!!!
+                   MUST LOOK AT
+          !!!!!  CHANGE IF NEEDED  !!!!! 
     ----- ===== ||||| ++++++ ||||| ===== -----
     */
     box-shadow: 0 0 25px;
@@ -208,7 +214,9 @@ header {
 .topNavDropContent a:hover {
     /* 
     ----- ===== ||||| ++++++ ||||| ===== -----
-          !!!!! DIFFERENT PER SITE !!!!! 
+          !!!!!      VARIABLE      !!!!!
+                   MUST LOOK AT
+          !!!!!  CHANGE IF NEEDED  !!!!! 
     ----- ===== ||||| ++++++ ||||| ===== -----
     */
     background-color: coral;
@@ -218,7 +226,9 @@ header {
 .topNavButton:hover {
     /* 
     ----- ===== ||||| ++++++ ||||| ===== -----
-          !!!!! DIFFERENT PER SITE !!!!! 
+          !!!!!      VARIABLE      !!!!!
+                   MUST LOOK AT
+          !!!!!  CHANGE IF NEEDED  !!!!! 
     ----- ===== ||||| ++++++ ||||| ===== -----
     */
     background-color: coral;

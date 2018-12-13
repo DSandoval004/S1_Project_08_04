@@ -63,17 +63,19 @@ dl {
     column-count: 2;
     column-gap: 30px;
     column-rule: 2px solid gray;
-
+    margin: 5px;
 }
 
 .dlListBoxes {
+    -webkit-column-break-after: avoid-column;
+    break-inside: avoid;
     padding: 0px 0px 5px;
     margin: 5px auto;
     width: 95%;
 }
 
 dl hr {
-    margin: 0;
+    margin: 2px 0;
 }
 
 article dt {

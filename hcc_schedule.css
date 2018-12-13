@@ -50,6 +50,11 @@ caption {
     text-align: right;
 }
 
+/* Table Row */
+tr {
+    min-height: 1px;
+}
+
 /* Column Styles */
 col#firstcol {
     width: 16%;
