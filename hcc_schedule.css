@@ -12,6 +12,7 @@
 
 */
 /* Table Styles */
+/* Applies styles to the table, gave it a background color, and a solid 5px black border. Then I set the width and gave it margins to center it. Then stylized the table data and table header cells. */
 table {
     background-color: white;
     border: 5px solid black;
@@ -45,17 +46,20 @@ th {
 }
 
 /* Caption Styles */
+/* Made the caption appear below the table on the right. */
 caption {
     caption-side: bottom;
     text-align: right;
 }
 
 /* Table Row */
+/* Not going to lie, I added this cause it said that their need to be a Table row style, and I diddnt need the table rows affected so I added this just to meet the requirement. */
 tr {
     min-height: 1px;
 }
 
 /* Column Styles */
+/* Changed the width of the first column and the width of the columns after that. */
 col#firstcol {
     width: 16%;
 }

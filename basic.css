@@ -52,6 +52,23 @@ a:link {
     color: black;
 }
 
+a.lookLikeLink,
+a.lookLikeLink:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+a.lookLikeLink:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a.lookLikeLink:visited,
+a.lookLikeLink:active {
+    color: mediumvioletred;
+    text-decoration: underline;
+}
+
 .hide {
     display: none;
 }

@@ -29,7 +29,9 @@
 </head>
 
 <body>
+    <!-- Header has nav in it. -->
     <header>
+        <!-- Top nav bar, used buttons cause I preffer that and the styles I use works with buttons so that I can if need be add dropdowns. -->
         <nav id="topNavBar">
             <button class="topNavButton"><a href="#">Home Page</a></button>
             <button class="topNavButton"><a href="#">Reservations</a></button>
@@ -42,14 +44,20 @@
             <button class="topNavButton"><a href="#">FAQ</a></button>
         </nav>
     </header>
+    <!-- This is the section that has the table in it. -->
     <section>
+        <!-- Table -->
         <table>
+            <!-- Table caption tells a little about the table. -->
             <caption>Hamilton Conference Center Room Schedule</caption>
+            <!-- Column group to apply styles to columns. -->
             <colgroup>
                 <col id="firstcol">
                 <col id="dataCol" span="7">
             </colgroup>
+            <!-- Table head, is at the top of the table and is simlar to the header but for tables. -->
             <thead>
+                <!-- Table Head First Row -->
                 <tr>
                     <th rowspan="2" id="theadThFirst" class="theadThFirst">
                         Tuesday <br />
@@ -59,6 +67,7 @@
                         Reservations for Conference Rooms
                     </th>
                 </tr>
+                <!-- Table Head Second Row -->
                 <tr>
                     <th>Sunrise Room</th>
                     <th>Mountain View Room</th>
@@ -69,6 +78,7 @@
                     <th>Green Room</th>
                 </tr>
             </thead>
+            <!-- The Body of the table. The first column in each of the row has the time, then after any content needed. -->
             <tbody>
                 <tr>
                     <th>8:00</th>
@@ -157,6 +167,7 @@
                     <th>4:30</th>
                 </tr>
             </tbody>
+            <!-- Table Footer has the last time of the day/when they close, and show avaiblity of time slot for each room. -->
             <tfoot>
                 <tr>
                     <th>5:00</th>
@@ -167,14 +178,16 @@
                     <td id="f1">Show if the time slot is available or not</td>
                     <td class="open" colspan="3">Open</td>
                     <td class="taken" colspan="3">Taken</td>
-
                 </tr>
             </tfoot>
         </table>
     </section>
+    <!-- Article to contain contact information and tell maximum of each room. -->
     <article>
+        <!-- Contain contact information. -->
         <p id="articleContent">
-            To reserve a room, please contact Yancy Inwe at extension 388 or by e-mail at yancyinwe@hconfcenter.org.
+            To reserve a room, please contact Yancy Inwe at extension 388 or by e-mail at <a href="mailto:yancyinwe@hconfcenter.org"
+                class="lookLikeLink">yancyinwe@hconfcenter.org</a>.
             <br />
             Reservations should be made at least 48 hours in advance. Cancellations require 24 hour notice. Room
             deposits will not be returned for cancellations within 24 hours of the scheduled event.
@@ -182,6 +195,7 @@
         <h2>
             Room Descriptions
         </h2>
+        <!-- Descrition list to show the room name then the max cap of each room. -->
         <dl>
             <div class="dlListBoxes">
                 <dt>Sunrise Room</dt>
@@ -220,6 +234,7 @@
             </div>
         </dl>
     </article>
+    <!-- Footer, contains link to the address, phone number and to the home page. -->
     <footer>
         <a href="index.html">Hamilton Conference Center <br /></a>
         <a href="https://www.google.com/maps/search/8711+West+Park+Lane+Hamilton,+OH+45011/@39.4296413,-84.5139208,17z">
