@@ -69,6 +69,7 @@ col#dataCol {
 }
 
 /* Cell styles */
+/* Classes to change the background of cells to show if that time slot is avaible or not. */
 .open {
     background-color: aliceblue;
 }
@@ -78,6 +79,7 @@ col#dataCol {
 }
 
 /* Table Header Styles */
+/* Sets the height of the table head, then changes the font size of and background color to the id of theadThFirst, Then changes the font size of the class theadThFirst, then changes the background color of the top row and made the font color black. */
 thead {
     height: 60px;
 }
@@ -97,6 +99,7 @@ thead th.theadTopRow {
 }
 
 /* Table Footer Style */
+/* Changes the background of the table footer, aligned the text center, changed the font size and the font color. Then vertically aligned the content of the row tfoot2 and changed the font color. Then changed the font size of the of the first column second row of the tfoot to a font size of .9em. */
 tfoot td {
     background-color: gray;
     text-align: center;

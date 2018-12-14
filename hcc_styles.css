@@ -16,6 +16,7 @@
 */
 
 /* Article Styles */
+/* Makes the article a flex-box-container, and have a background of alice blue and a box shadow. Then made the article content a flex box and changed the font. Also, aligned the h2 to center. */
 article {
     display: -webkit-flex;
     -webkit-flex-flow: column wrap;
@@ -36,8 +37,8 @@ article {
 }
 
 #articleContent {
-    -webkit-flex: 1 2 auto;
-    flex: 1 2 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
 
     height: fit-content;
     width: fit-content;
@@ -52,6 +53,7 @@ h2 {
 }
 
 /* Dicription List */
+/* Made the dl have a column break of 2, and prvvented the dllistboxes from breaking apart, gave the hr margin, changed the font size of the discription term and the discription definuition */
 dl {
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -89,6 +91,7 @@ article dd {
 }
 
 /* Footer */
+/* Made the footer a flex box, have an order of 100 so it sure to appear on the bottom, and have a box shadow, padding, algin the text to center, gave it margin and made the width 99%. */
 footer {
     -webkit-flex: 1 1 auto;
     -webkit-order: 100;
